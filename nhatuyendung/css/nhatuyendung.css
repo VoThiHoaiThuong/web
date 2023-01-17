@@ -1,0 +1,27 @@
+ul.listntd {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.listntd li {
+    float: left;
+    margin: 10px;
+}
+.clear
+{
+    clear: both;
+}
+h3.titlentd
+{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.wrapper
+{
+    
+    border: 1px solid black;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}

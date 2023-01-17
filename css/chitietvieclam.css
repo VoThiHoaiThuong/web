@@ -1,0 +1,102 @@
+.upper-box{
+   width: 1520px;
+   height: 265px;
+   background-color: #ebf1fb;
+   padding: 80px 120px;
+}
+
+.auto-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.upper-box__btn{
+   display: flex;
+}
+
+.upper-box__btn button{
+   font-size: 14px;
+   color: #fff;
+   background-color: #5191fa;
+   border: none;
+   padding: 18px 50px;
+   border-radius: 7px;
+   cursor: pointer;
+   transition: all 0.4s linear;
+   outline: none;
+}
+
+.upper-box__btn button:hover{
+   background-color: #0146A6;
+}
+
+.upper-box__btn span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid #5191fa;
+   border-radius: 7px;
+   width: 57px;
+   height: 57px;
+   margin-left: 10px;
+   font-size: 14px;
+   color: #5191fa;
+   cursor: pointer;
+   transition: all 0.4s linear;
+}
+
+.upper-box__btn span:hover{
+   background-color: #5191fa;
+   color: #fff;
+}
+
+.under-box{
+   padding: 50px 120px;
+   text-align: left;
+}
+
+.job-desc__title{
+   font-size: 20px;
+   margin-bottom: 20px !important;
+}
+
+.job-desc__info{
+   font-size: 14px !important;
+   color: #696969 !important;
+   line-height: 26px;
+   width: 1000px;
+}
+
+.under-box__share{
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+}
+
+.under-box__list-btn{
+   margin-left: 10px;
+}
+
+.under-box__list-btn button{
+   margin: 0 10px;
+   font-size: 14px;
+   border: none;
+   border-radius: 7px;
+   padding: 10px 25px;
+   color: #fff;
+   cursor: pointer;
+   outline: none;
+}
+
+.under-box__list-btn button.facebook{
+   background-color: #3b5998;
+}
+
+.under-box__list-btn button.twitter{
+   background-color: #55acee;
+}
+
+.under-box__list-btn button.pinterest{
+   background-color: #dd4b39;
+}

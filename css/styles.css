@@ -1,0 +1,456 @@
+*
+{
+    padding: 0;
+    margin: 0;   
+    font-family: sans-serif;
+}
+#menubar
+{
+    background-image: linear-gradient(to right,	 #CCE5FF	,#0000FF );
+}
+#menubar img
+{
+    width: 200px;
+    height:60px;
+}
+.nav-link
+{
+    padding: 0 20px 20px 0;
+    color:black;
+    font-size: 16px;
+    /* color: #fff !important; */
+    margin: 3px;
+    
+}
+ .navbar-nav
+{
+    text-align: center;
+    
+} 
+
+.menubar .navbar-toggler
+{
+    
+    padding-right: 0 ;
+    outline: none;
+    border: none;
+}
+
+.btn-box
+{
+   /* right: 20px; */
+
+    height: 40px;
+    padding: 7px 7px 0 450px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+        
+}
+.btn-box .btn-primary
+{
+    color: lightskyblue ;
+    padding: 0 40px ;
+    /* border-radius: 0;
+    box-shadow: none !important;
+    background: transparent; */
+    border: 2px solid black;
+    background-color: #fff;
+    
+}
+
+.btn-login{
+    border-radius: 7px !important;
+    padding: 10px 30px !important;
+    border: none !important;
+    background-color: #77d1b1;
+
+   
+}
+.btn-login:hover{
+    color: aqua !important;  
+}
+
+.banner 
+{
+    
+    background-image:linear-
+    gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    /* background-size: cover; 
+    background-position: center;  */
+    background-size: 100% 250px;
+     background-repeat: no-repeat;
+}  
+
+.banner h1 
+{
+    color: black;
+    position: absolute;
+    padding-top: 350px ; 
+    padding-left: 400px; 
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 100px rgba(0,0,0,0,0.5); 
+   
+ }
+ .banner p
+{
+    color: black;
+    position: absolute;
+    padding-top: 430px ; 
+    padding-left: 550px; 
+    text-shadow: 0 0 100px rgba(0,0,0,0,0.5);  
+    font-size: 20px;
+ }
+
+.search-job  
+{
+    left: 370px;
+    position: absolute;
+    top: 700px;
+    
+}
+.form-control
+{
+    /* box-shadow:  0.375em 0.375em 0 0 rgba(15,28,63,0.125) ; */
+    border:black ;
+    border: 0,1875em solid black; 
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+
+
+}
+.form
+{
+    /* box-shadow:  0.375em 0.375em 0 0 rgba(15,28,63,0.125) ; */
+    border:black ;
+    border: 0,1875em solid black; 
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.icon 
+{   left: 15px;
+    position: absolute;
+    top: 13px;
+}
+
+#nganhnghe
+{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+#nganhnghe img
+{
+    max-width: 100px;
+    margin: 10px 20px;
+}
+/*  Recent Jobs */
+#jobs
+{
+    
+    color: black;
+    background: dimgray;
+    padding: 50px 0;
+}
+.company-details
+{
+    box-shadow: 0 2px 70px 10 rgba(110,130,208, .18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.job-update
+{
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.job-update .fa
+{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+.job-update small
+{
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+.job-update p
+{
+    margin-bottom: 0 !important;
+}
+.job-update a
+{
+    text-decoration: none !important;
+    color: #b6bed2;
+    float: right;
+}
+.apply-btn
+{
+    height: 40px;
+    background-image: linear-gradient(to right,	 #CCE5FF	,#0000FF );
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.apply-btn .btn-primary
+{
+    padding: 0 30px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none !important;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.page li
+{
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.page li:hover, .active
+{
+    color: #fff;
+    background-image: linear-gradient(to right,	 #CCE5FF	,#0000FF );
+}
+.left
+{
+    color: #999;
+}
+.right
+{
+    color: #29b929;
+}
+/* SITE STATS */
+#site
+{
+    padding: 100px 0;
+}
+#site h3
+{
+    margin-bottom: 30px;
+}
+.stats-box
+{
+    background-color:#29b929;
+    padding: 30px;
+    border-radius: 10px;
+    margin:20px 0;
+    box-shadow: 0 2px 40px 0 rgb(110,130,208, .18);
+    
+}
+.stats-box .fa
+{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/* app banner */
+#app
+{
+     /* background-image: linear-gradient(to right, #CCE5FF	,#0000FF ); */
+     padding: 50px 0;
+}
+
+#app h3
+{
+    margin-top: 20px;
+    color: black;
+}
+
+#app img
+{
+    width: 150px;
+    margin: 30px 0;
+}
+
+#menubar img
+{
+    width: 200px;
+    height:60px;
+}
+.footer
+{
+  margin-top: 5px;
+  border: 3px bold black;
+  height: 300px;
+  background-color: #000044;
+  width: 100%;
+}
+.footer h4
+{
+    color: #fff;
+    padding: 25px 10px ;
+}
+.footer p
+{
+    color: #efefef;
+}
+.footer a
+{
+  margin-left: 20px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.footer a:hover
+{
+  color:black;
+  text-decoration: underline;
+}
+footer icon
+{
+    float: left;
+}
+.center
+{
+  width: 50%;
+  margin: 0 auto;
+}
+.footer1
+{
+  width: 18%;
+  float: left;
+  margin-right: 2%;
+}
+
+
+.footer2
+{
+  width: 28%;
+  float: left;
+  margin-right: 2%;
+}
+.footer3
+{
+  width: 50%;
+  float: left;
+}
+
+
+.clear
+{
+    clear: both;
+}
+
+/* sidebar */
+#main
+{
+    border: 1px solid black; 
+    height:auto ;
+    width: 100%;
+}
+.sidebar
+        {
+            background: #CCE5FF;
+              border: 1px solid black;
+              height: auto ;
+              width: 25%;
+              margin-top: 5px;
+              margin-left: 5px;
+              float: left;
+          }
+          .maincontent
+          {
+              border: 1px solid black; 
+              height: auto;
+              width: 73%;
+              margin-top: 5px;
+              margin-left: 5px;
+              float: right;
+          }  
+        .listsidebar
+          {
+           
+              padding: 0;
+              margin: 0;
+              width: 100%;
+              list-style: none;
+              line-height: 27px;
+          }
+          
+          .listsidebar li
+          {
+            
+              margin: 5px;
+              padding:10px ;
+          }
+          /* .listsidebar li a
+          {
+              text-decoration: none;
+              text-align: center;
+              color: black;
+              display: block;
+              text-align:left;
+             
+          } */
+          .listsidebar li:hover
+          {
+              /* background: green; */
+              color:black;
+          }
+          
+         /* title */
+         #title
+         {
+            background:#77d1b1;
+            
+         }
+
+         #title h2
+         {
+           
+          padding-left: 630px;
+          padding-right: 630px;
+          padding-top: 20px;
+         }
+         #title h6
+         {
+          bottom: 60px;
+           
+         }
+        .navbarnav
+        {
+            text-align: center;
+            /* margin: 2px; */
+        } 
+ .title .navbar-toggler
+{
+    
+    padding-right: 0 ;
+    outline: none;
+    border: none;
+}
+/* menubar */
+
+.form1
+{
+    /* box-shadow:  0.375em 0.375em 0 0 rgba(15,28,63,0.125) ; */
+    border:black ;
+    border: 0,1875em solid black; 
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+   padding-right: 100px;
+}
+
+
+/* dangky */
+.maincontent1
+          {
+              border: 1px solid black; 
+              height: 700px;
+              width: 100%;
+              margin-top: 5px;
+              margin-left: 5px;
+              float: right;
+          }  
